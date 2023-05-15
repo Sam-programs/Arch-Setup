@@ -39,7 +39,7 @@ sudo cp -f /usr/bin/ld /usr/bin/ld-orginal
 sudo ln -s -f /usr/bin/ld.lld /usr/bin/ld
 
 #neovim setup
-sudo pacman -S neovim
+sudo pacman -S neovim xsel
 sudo git clone https://github.com/Sam-programs/simple-neovim-setup
 sudo ./simple-neovim-setup/setup.sh
 
@@ -48,7 +48,7 @@ sudo pacman -S rofi rofi-calc
 sudo pacman -S bspwm sxhkd
 sudo pacman -S xorg-server xorg-xinit
 sudo pacman -S alacritty
-sudo pacman -S ttf-firacode-nerd xsel vim #vim here is for the man pages neovim for the hotkey manual in xinitrc
+sudo pacman -S ttf-firacode-nerd vim #vim here is for manpages and hotkey manual in xinitrc
 
 sudo cp -f ./.xinitrc ~
 
