@@ -8,7 +8,7 @@ sudo pacman -S lightdm lightdm-slick-greeter
 #comment this function out to not launch lightdm after setup
 #you'ill have to use startx to load in bspwm
 function lightdm_launch(){
- sudo ls -s -f ~/.xinitrc ~/.xsession
+ sudo ln -s -f ~/.xinitrc ~/.xsession
  sudo systemctl enable --now lightdm 
 }
 
