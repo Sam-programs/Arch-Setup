@@ -18,10 +18,10 @@ sudo cp -f lightdm.conf /etc/lightdm/lightdm.conf
 #check the xinitrc to turn off start up apps that u remove
 #startup apps
 sudo pacman -S feh 
-sudo cp -f ./.fehbg ~
+cp -f ./.fehbg ~
 sudo chmod +x ~/.fehbg
-sudo mkdir ~/Pictures/
-sudo cp -f ./bg.png ~/Pictures/
+mkdir ~/Pictures/
+cp -f ./bg.png ~/Pictures/
 
 sudo pacman -S flameshot
 
@@ -29,8 +29,8 @@ sudo pacman -S polybar
 
 
 sudo pacman -S copyq
-sudo mkdir ~/.config/
-sudo mkdir ~/.config/copyq
+mkdir ~/.config/
+mkdir ~/.config/copyq
 #
 
 sudo pacman -S zip
@@ -45,7 +45,7 @@ sudo ln -s -f /usr/bin/ld.lld /usr/bin/ld
 sudo pacman -S neovim xsel
 sudo git clone https://github.com/Sam-programs/simple-neovim-setup
 sudo chmod +x ./simple-neovim-setup/setup.sh
-sudo ./simple-neovim-setup/setup.sh
+./simple-neovim-setup/setup.sh
 
 #required for the setup to work properly
 sudo pacman -S rofi rofi-calc
@@ -54,13 +54,13 @@ sudo pacman -S xorg-server xorg-xinit
 sudo pacman -S alacritty
 sudo pacman -S ttf-firacode-nerd vim #vim here is for manpages and hotkey manual in xinitrc
 
-sudo cp -f ./.xinitrc ~
+cp -f ./.xinitrc ~
 sudo chmod +x ~/.xinitrc
 
 mkdir ~/code/
 mkdir ~/Downloads/
 
-sudo cp -rf ./.config/ ~
+cp -rf ./.config/ ~
 
 
 lightdm_launch
