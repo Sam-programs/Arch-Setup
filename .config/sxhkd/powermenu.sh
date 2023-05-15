@@ -4,8 +4,8 @@ choice=$(printf "Cancel\nShutDown\nRestart\nLog Out" | rofi -dmenu -i -p "PowerM
 
 case "$choice" in 
    "Cancel")   exit 0;;
-   "ShutDown") shutdown now;;
-   "Restart")  reboot;;
+   "ShutDown") systemctl shutdown now;;
+   "Restart")  systemctl reboot -i;;
    "Log Out")  bspc quit;;
    *)exit 1 ;;
 esac
