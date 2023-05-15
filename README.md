@@ -1,6 +1,4 @@
 # Arch Keyboard Originated Setup 
-WARNING:this has not been tested  
-but it should work properly
 ## User Creation
 you firstly need to create a user.  
 if u already made a user u can skip to [Setup](#setup).  
