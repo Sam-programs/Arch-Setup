@@ -19,7 +19,8 @@ sudo cp -f lightdm.conf /etc/lightdm/lightdm.conf
 #check the xinitrc to turn off start up apps that u remove
 #startup apps
 sudo pacman -S feh 
-sudo cp -f ./.fehbg ~ 
+sudo cp -f ./.fehbg ~
+sudo chmod +x ~/.fehbg
 sudo cp -f ./bg.png ~/Pictures/
 
 sudo pacman -S flameshot
@@ -41,6 +42,7 @@ sudo ln -s -f /usr/bin/ld.lld /usr/bin/ld
 #neovim setup
 sudo pacman -S neovim xsel
 sudo git clone https://github.com/Sam-programs/simple-neovim-setup
+sudo chmod +x ./simple-neovim-setup/setup.sh
 sudo ./simple-neovim-setup/setup.sh
 
 #required for the setup to work properly
@@ -51,6 +53,7 @@ sudo pacman -S alacritty
 sudo pacman -S ttf-firacode-nerd vim #vim here is for manpages and hotkey manual in xinitrc
 
 sudo cp -f ./.xinitrc ~
+sudo chmod +x ~/.xinitrc
 
 mkdir ~/code/
 mkdir ~/Downloads/
