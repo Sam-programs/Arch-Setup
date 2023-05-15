@@ -11,8 +11,7 @@ function lightdm_launch(){
  sudo ls -s -f ~/.xinitrc ~/.xsession
  sudo systemctl enable --now lightdm 
 }
-if then 
-fi 
+
 sudo cp -f /etc/lightdm/lightdm.conf /etc/lightdm/original-lightdm.conf
 sudo cp -f lightdm.conf /etc/lightdm/lightdm.conf
 
@@ -21,6 +20,7 @@ sudo cp -f lightdm.conf /etc/lightdm/lightdm.conf
 sudo pacman -S feh 
 sudo cp -f ./.fehbg ~
 sudo chmod +x ~/.fehbg
+sudo mkdir ~/Pictures/
 sudo cp -f ./bg.png ~/Pictures/
 
 sudo pacman -S flameshot
@@ -29,6 +29,8 @@ sudo pacman -S polybar
 
 
 sudo pacman -S copyq
+sudo mkdir ~/.config/
+sudo mkdir ~/.config/copyq
 #
 
 sudo pacman -S zip
@@ -61,4 +63,4 @@ mkdir ~/Downloads/
 sudo cp -rf ./.config/ ~
 
 
-lightdm_launch()
+lightdm_launch
