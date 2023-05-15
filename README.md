@@ -21,8 +21,8 @@ note:this isn\'t $name like in bash
 after u set up the user and logged into that user 
 clone the repo anywhere u want then run 
 ```bash
-sudo chmod +x ./setup;
-./setup
+sudo chmod +x ./Arch-Setup/setup;
+./Arch-Setup/setup.sh
 ```
 
 
