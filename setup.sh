@@ -48,6 +48,8 @@ sudo git clone https://github.com/Sam-programs/simple-neovim-setup
 sudo chmod +x ./simple-neovim-setup/setup.sh
 ./simple-neovim-setup/setup.sh
 
+sudo pacman -S pulseaudio
+
 #required for the setup to work properly
 sudo pacman -S rofi rofi-calc
 sudo pacman -S bspwm sxhkd
