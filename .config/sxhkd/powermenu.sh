@@ -7,6 +7,6 @@ case "$choice" in
    "ShutDown") systemctl shutdown now;;
    "Restart")  systemctl reboot -i;;
    "Sleep")    systemctl suspend;;
-   "Log Out")  bspc quit;;
+   "switch users")  bspc quit;;
    *)exit 1 ;;
 esac
