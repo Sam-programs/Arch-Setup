@@ -43,17 +43,17 @@ mkdir ~/.config/copyq
 #sudo ln -s -f /usr/bin/ld.lld /usr/bin/ld
 
 #neovim setup
-sudo pacman -S neovim xsel
-sudo git clone https://github.com/Sam-programs/simple-neovim-setup
-sudo chmod +x ./simple-neovim-setup/setup.sh
-./simple-neovim-setup/setup.sh
+#sudo pacman -S neovim xsel
+#sudo git clone https://github.com/Sam-programs/simple-neovim-setup
+#sudo chmod +x ./simple-neovim-setup/setup.sh
+#./simple-neovim-setup/setup.sh
 
 mkdir ~/code/
 
 sudo pacman -S pulseaudio
 
 #required for the setup to work properly
-sudo pacman -S rofi rofi-calc
+sudo pacman -S rofi rofi-calc #rofi-calc is optional but u would get annoying warnings
 sudo pacman -S bspwm sxhkd
 sudo pacman -S xorg-server xorg-xinit
 sudo pacman -S alacritty
