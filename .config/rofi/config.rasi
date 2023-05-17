@@ -1,25 +1,24 @@
 configuration {
   display-drun: "Run:";
   display-window: "Windows:";
-  display-calc: "calc:";
   drun-display-format: "{icon} {name}";
   show-icons: true;
-  font: "Fira Code Regular 14";
+  font: "FiraCode nerd font Regular 14";
   modi: "window,run,drun,calc";
 }
 
 @theme "/dev/null"
 
 * {
-  bg: #1e1e2eFF;
-  bg-alt: #585b70FF;
-  bg-selected: #313244FF;
+  bg: #282A2EC0;
+  bg-alt:#373B41;
+  bg-selected: #C5C8C630;
 
-  fg: #cdd6f4;
-  fg-alt: #7f849c;
+  fg: #C5C8C6;
+  fg-alt: #C5C8C6;
 
   
-  border: 2;
+  border: 1;
   margin: 0;
   padding: 0;
   spacing: 0;
@@ -27,7 +26,7 @@ configuration {
 
 window {
   width: 50%;
-  location:center;
+  location: center;
   background-color: @bg;
 }
 
@@ -82,4 +81,3 @@ prompt {
   background-color: @bg-alt;
   text-color: @fg;
 }
-
