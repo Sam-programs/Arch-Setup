@@ -14,7 +14,7 @@ passwd $name
 to allow the sudo command to work for a user add this to /etc/sudoers
 ```bash
 /etc/sudoers
-note:this isn\'t $name like in bash
+
 {your name } ALL=(ALL) ALL
 ``` 
 ## Setup
