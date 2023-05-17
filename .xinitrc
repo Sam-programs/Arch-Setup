@@ -6,6 +6,7 @@ exec polybar&
 
 exec flameshot&
 exec copyq&
+exec picom &
 
 exec xfce4-screensaver&
 
