@@ -34,6 +34,10 @@ sudo pacman -S polybar
 sudo pacman -S copyq
 mkdir ~/.config/
 mkdir ~/.config/copyq
+
+sudo pacman -S picom
+sudo cp /etc/xdg/picom.conf /etc/xdg/original-picom.conf
+sudo cp picom.conf /etc/xdg/picom.conf
 #
 
 #sudo pacman -S zip
