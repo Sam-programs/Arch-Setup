@@ -48,7 +48,7 @@ element-text {
 }
 
 element-icon {
-  size: 14;
+  size: 21;
   padding: 0 10 0 0;
   background-color: transparent;
 }
