@@ -1,6 +1,7 @@
 # Arch Keyboard Originated Setup
 <img src="/showcase.png" width="100%" /> 
-*note the power buttn is replaced with an arch linux icon it still has the same functionality
+*note the power button is replaced with an arch linux icon it still has the same functionality  
+
 ## User Creation
 you firstly need to create a user.  
 if u already made a user u can skip to [Setup](#setup).  
