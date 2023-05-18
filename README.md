@@ -1,5 +1,6 @@
 # Arch Keyboard Originated Setup
-<img src="/showcase.png" width="100%" />   
+<img src="/showcase.png" width="100%" /> 
+
 ## User Creation
 you firstly need to create a user.  
 if u already made a user u can skip to [Setup](#setup).  
