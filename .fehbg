@@ -1,1 +1,1 @@
-feh --no-fehbg --bg-center ~/Pictures/bg.png
+feh --no-fehbg --bg-scale ~/Pictures/bg.png
