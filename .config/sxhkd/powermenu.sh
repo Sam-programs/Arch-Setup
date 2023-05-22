@@ -7,7 +7,7 @@ case "$choice" in
    "ShutDown") systemctl shutdown now;;
    "Restart")  systemctl reboot -i;;
    "Sleep")    systemctl suspend;;
-   "Log Out")  xfce4-screensaver-command -l;;
+   "Log Out")  light-locker-command -l;;
    "Switch Users")  bspc quit;;
    *)exit 1 ;;
 esac
