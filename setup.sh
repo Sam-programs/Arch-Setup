@@ -18,7 +18,7 @@ sudo cp -f lightdm.conf /etc/lightdm/lightdm.conf
 
 #check the xinitrc to turn off start up apps that u remove
 #startup apps
-sudo pacman -S xfce4-screensaver
+sudo pacman -S light-locker
 
 sudo pacman -S feh 
 cp -f ./.fehbg ~
