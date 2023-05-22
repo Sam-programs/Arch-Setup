@@ -8,7 +8,7 @@ exec flameshot&
 exec copyq&
 exec picom &
 
-exec xfce4-screensaver&
+exec light-locker&
 
 exec xset r rate 300 50 &
 
