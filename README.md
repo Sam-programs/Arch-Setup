@@ -18,15 +18,13 @@ to allow the sudo command to work for a user add this to /etc/sudoers
 ```bash
 /etc/sudoers
 
-{your name } ALL=(ALL) ALL
+{your name} ALL=(ALL) ALL
 ``` 
 ## Setup
 after u set up the user and logged into that user 
 clone the repo anywhere u want then run 
 ```bash
-cd Arch-Setup;
-sudo chmod +x ./setup.sh;
-./setup.sh
+cd Arch-Setup;sudo chmod +x ./setup.sh;./setup.sh
 ```
 
 
