@@ -19,9 +19,9 @@ alt + q
 	~/.config/sxhkd/powermenu.sh
 
 # focus the next/previous window in the current desktop
-alt + j
-	bspc node -f next.local.!hidden.window
 alt + k
+	bspc node -f next.local.!hidden.window
+alt + j
 	bspc node -f prev.local.!hidden.window
 #kill the current program
 alt + F4
