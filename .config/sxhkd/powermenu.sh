@@ -4,7 +4,7 @@ choice=$(printf "Cancel\nShutDown\nRestart\nSwitch Users\nSleep\nLog Out" | rofi
 
 case "$choice" in 
    "Cancel")   exit 0;;
-   "ShutDown") systemctl shutdown now;;
+   "ShutDown") shutdown now;;
    "Restart")  systemctl reboot -i;;
    "Sleep")    systemctl suspend;;
    "Log Out")  light-locker-command -l;;
